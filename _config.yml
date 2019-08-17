@@ -7,7 +7,7 @@ title: 醉生梦死，嬉皮笑脸！
 subtitle:
 description:
 keywords:
-author: 陈阅
+author:
 language:
 timezone:
 
@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -73,8 +73,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: chan
 
+
+lightgallery:
+    # if you don't specify the css or js source, the default cdn will be used.
+    # css: # css source url
+    # js: #js source url
+    # sorry that I can not find any cdn hosting following plugins,
+    # please self-host the plugin js and add url here
+    # plugins:
+        # lg-thumbnail:
+        # lg-zoom:
+        # lg-autoplay:
+        # lg-fullscreen:
+        # lg-pager:
+
+# prism_plugin:
+#   mode: 'preprocess'    # realtime/preprocess
+#   theme: 'default'
+#   line_number: false    # default false
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
