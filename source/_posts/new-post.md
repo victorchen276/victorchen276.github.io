@@ -5,7 +5,7 @@ tags:
 ---
 
 
-测试一下lightgallery
+测试一下lightgallery test
 <div id="lightgallery">
     <a href="images/DSC_11051-150x150.jpg">
         <img src="images/DSC_11051-199x300.jpg">
@@ -16,6 +16,6 @@ tags:
 </div>
 
 
-<script>
+<!-- <script>
     lightGallery(document.getElementById('lightgallery'));
-</script>
+</script> -->
